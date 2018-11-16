@@ -1,0 +1,54 @@
+body{
+    background:black;
+}
+
+.jumbotron{
+    background:black;
+    background-image:url("../kratos.jpg");
+    background-position-x:450px;
+    background-repeat:no-repeat;
+    background-size:200px 150px;
+    font-family: 'Black Ops One', cursive;
+    color:white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .jumbotron {
+        background:black;
+    background-image:url("../kratos.jpg");
+    background-position-x:0px;
+    background-repeat:no-repeat;
+    background-size:200px 150px;
+    font-family: 'Black Ops One', cursive;
+    color:white;
+    text-align: center;
+    }
+}
+
+
+.card-deck{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.card{
+    background:black;
+}
+
+.card-title{
+    color:white;
+}
+
+img{
+    width:200px;
+    height:300px;
+}
+
+.btn{
+    margin-top:50px;
+}
+
+.button{
+    text-align: center;
+}

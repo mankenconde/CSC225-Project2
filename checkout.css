@@ -1,0 +1,59 @@
+
+.jumbotron{
+    background:black;
+    background-image:url("../kratos2.jpg");
+    background-position-x:900px;
+    background-repeat:no-repeat;
+    background-size:250px 150px;
+    font-family: 'Black Ops One', cursive;
+    color:white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+.jumbotron{
+    background:black;
+    background-image:url("../kratos2.jpg");
+    background-position-x:100px;
+    background-repeat:no-repeat;
+    background-size:250px 150px;
+    font-family: 'Black Ops One', cursive;
+    color:white;
+    text-align: center;
+}
+}
+
+.container{
+    padding-top:100px;
+}
+
+.container,
+form{
+    padding-top:50px;
+}
+
+#radio{
+    padding-top:0%;
+}
+
+#checkout{
+    text-align: center;
+}
+
+#card-name{
+padding-top:10px;
+}
+
+#card-info, #cvv{
+    padding:10px;
+}
+
+#cvv{
+    margin-left:185px;
+}
+
+#name{
+    padding-bottom:10px;
+}
+

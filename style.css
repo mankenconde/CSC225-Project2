@@ -1,0 +1,39 @@
+.jumbotron{
+    background:black;
+    background-image:url("../kratos5.png");
+    background-position-x:950px;
+    background-repeat:no-repeat;
+    background-size:200px 150px;
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .jumbotron {
+        background:black;
+    background-image:url("../kratos5.png");
+    background-position-x:0px;
+    background-repeat:no-repeat;
+    background-size:200px 150px;
+    font-family: 'Black Ops One', cursive;
+    color:white;
+    text-align: center;
+    }
+}
+
+body{
+    background-image:url("../home-wall2.jpg");
+}
+
+h1{
+    text-align:center;
+    color:white;
+    padding:0;
+    font-family: 'Black Ops One', cursive;
+
+}
+
+.container{
+    width:auto;
+    height:250px;
+}

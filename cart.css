@@ -1,0 +1,52 @@
+body{
+    background: black;
+}
+
+.jumbotron{
+    background:black;
+    background-image:url("../cart.jpg");
+    background-position-y: -70px;
+    font-family: 'Black Ops One', cursive;
+    color:white;
+    text-align: center;
+}
+
+.row{
+    justify-content: center;
+}
+
+h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Black Ops One', cursive;
+}
+
+
+
+img{
+    height:100px;
+    width:125px;
+}
+
+#price{
+    width:125px;
+}
+
+h5{
+    color: blue;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    padding-top:30px;
+    font-size:25px;
+}
+
+.button{
+    text-align: center;
+    margin-top:80px;
+}

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/checkout.css">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Press+Start+2P" rel="stylesheet">
+
+    <title>Check Out</title>
+  </head>
+  <body>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">=></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="catalog.html">Catalog</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="cart.html">Cart</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="checkout.html">Check Out</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+              <div class="jumbotron">
+                  <h1>CHECK OUT</h1>
+              </div>
+
+    <form>
+              <div class="container">
+        <div class="row" id="name">
+          <div class="col-md-6">
+            First Name*<input type="text" class="form-control" placeholder="First name" required="true">
+          </div>
+          <div class="col-md-6">
+            Last Name*<input type="text" class="form-control" placeholder="Last name" required="true">
+          </div>
+        </div>
+
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required="true">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Confirm Email</label>
+                <input type="password" class="form-control" id="inputEmail4" placeholder="Email" required="true">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required="true">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" required="true">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="City" requried="true">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control" required="true">
+                  <option selected>Choose...</option>
+                  <option>NY</option>
+                  <option>MI</option>
+                  <option>WA</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip" placeholder="12345" required="true">
+              </div>
+            </div>
+           <h3>PAYMENT</h3>
+            <div class="container" id="radio">
+            <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                      Credit Card
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          Debit Card
+                        </label>
+                      </div>
+
+                      <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                              Paypal
+                            </label>
+                          </div>
+
+                                <div class="row" id="card-name">
+                                  <div class="col col-md-6" id="card-info" >
+                                     Name on Card<input type="text" class="form-control" placeholder="Name on Card">
+                                  </div>
+                                
+                                        <div class="col col-md-6" id="card-info" >
+                                           Card Number<input type="text" class="form-control" placeholder="Card Number">
+                                        </div>
+
+                                            <div class="col col-md-4" id="card-info" >
+                                              Expiration Date<input type="date" class="form-control" placeholder="Expiration Date">
+                                            </div>
+
+                                            <div class="col col-md-2" id="cvv">
+                                                   CVV <input type="text" class="form-control" placeholder="CVV">
+                                                  </div>
+                                </div>
+                                
+                  
+                 
+                </div>
+                <div class="container" id="checkout">
+                  <div class="form-group">
+            <button type="submit" class="btn btn-primary">Check Out</button>
+          </form>
+        </div>
+    </div>
+  </body>
+</html>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+

@@ -1,0 +1,24 @@
+.jumbotron{
+    background:black;
+    background:url("../about.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: -80px;
+    font-family: 'Black Ops One', cursive;
+    color:white;
+    text-align: center;
+}
+
+body{
+    background:black;
+    color:white;
+}
+
+.container{
+    text-align: center;
+}
+
+.container,
+h3,h4{
+    padding-bottom: 30px;
+}
